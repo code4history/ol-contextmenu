@@ -9,6 +9,7 @@ import type { CombinedOnSignature, EventTypes as OlEventTypes, OnSignature } fro
 import Control from 'ol/control/Control';
 import { TinyEmitter } from 'tiny-emitter';
 import { Item, Options, MenuEntry, ContextMenuEvent, CustomEventTypes } from './types';
+import './sass/main.scss';
 export default class ContextMenu extends Control {
     protected map: OlMap;
     protected emitter: TinyEmitter;
